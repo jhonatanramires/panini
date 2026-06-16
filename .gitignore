@@ -38,3 +38,4 @@ pnpm-lock.yaml
 .astro/**/**
 .astro/types.d.ts
 .astro/settings.json
+package-lock.js

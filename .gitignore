@@ -34,3 +34,7 @@ pnpm-debug.log*
 *.tmp
 Thumbs.db
 pnpm-lock.yaml
+**/.astro
+.astro/**/**
+.astro/types.d.ts
+.astro/settings.json

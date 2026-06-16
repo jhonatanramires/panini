@@ -1,77 +1,47 @@
-# Astro & Tailwind CSS Starter Kit
+# Panini Store
+this is a website done for a colombian client, here you will find what i did for him how i did it and the specific use o
+## User Story
+<details open>
+<summary>🇺🇸 English</summary>
+I need a website that displays on the main screen the Panini items for the 2026 World Cup that I sell in Colombia—there are 4 of them, each with its respective photo and price. Easy to navigate.
 
-by https://lexingtonthemes.com
+IN SPANISH  
+I DON'T HAVE A DOMAIN OR HOSTING
 
-## License
+* Box of 104 packs – $450,000
+* Half box of 52 packs – $225,000
+* Blue hardcover album – $59,000
+* Gold hardcover album – $90,000
 
-This template is open-source software licensed under the [GPL-3.0 license](https://opensource.org/licenses/GPL-3.0). Feel free to fork, modify, and use it in your projects.
+When clicking on any product, the visitor should be redirected directly to my WhatsApp chat to finalize the purchase. Additionally, I want a simple customer testimonials section that builds trust and remains consistent with the cheerful visual style.
 
-## Need an attribution-free version?
+I don’t have a strict platform preference, so suggest the one you consider most efficient and economical. The priority is:
 
-Checkout [Lexington Themes](https://lexingtonthemes.com/) for free and premium multipage themes & UI Kits
-For freelancers, developers, businesses, and personal use.
-Beautifully crafted with Astro.js, and Tailwind CSS — Simple & easy to customise.
+1. Responsive and lightweight design that loads quickly.
+2. Colors and graphics aligned with the Panini brand and the World Cup vibe.
+3. Clear structure to easily add or update products.
 
-## This template is using Tailwind CSS V4
+I will provide the texts, prices, and photographs; I need the complete setup and a brief guide for future updates.
+</details>
+<details>
+<summary>🇪🇸 Español</summary>
+Necesito una página web, que muestre en la pantalla principal, los artículos Panini del Mundial 2026 que vendo en Colombia son 4 con su respectiva foto y precio. fácil de navegar
 
-Now we are using only a CSS file. It's called `global.css` and it's located in the src/styles folder. Now we are eimporting Tailwind CSS on the same file instead of using the `tailwind.config.cjs` file. Like this:
+EN ESPAÑOL
+NO TENGO DOMINIO NI HOSTING
 
-```css
-// Importing Tailwind CSS
-@import "tailwindcss";
-// Importing Tailwind plugins
-@plugin "@tailwindcss/typography";
-@plugin "@tailwindcss/forms";
-```
+* Caja de 104 sobres – $450.000
+* Media caja de 52 sobres – $225.000
+* Álbum pasta dura azul – $59.000
+* Álbum pasta dura Gold – $90.000
 
-Then to add your styles you will use the @theme directive. Like this:
+Al hacer clic en cualquier producto, el visitante debe ser redirigido directamente a mi chat de WhatsApp para cerrar la compra. Además quiero una sección sencilla de testimonios de clientes que refuerce la confianza y se mantenga coherente con el estilo visual alegre.
 
-```css
-@theme {
-  /* Your CSS goes here, see how styles are written on the global.css file */
-}
-```
+No tengo preferencia estricta de plataforma, así que propón la que consideres más eficiente y económica La prioridad es:
 
-Remember this is just in Alpha version, so you can use it as you want. Just keep an eye on the changes that Tailwind CSS is going to make.
+1. Diseño responsivo y ligero que cargue rápido.
+2. Colores y gráficos alineados con la marca Panini y el ambiente mundialista.
+3. Estructura clara para agregar o actualizar productos fácilmente.
 
-## Template Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-├── src/
-│   └── components/
-│   └── layouts/
-│   └── pages/
-│       └── index.astro
-│   └── styles/
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-Any static assets, like images, can be placed in the `public/` directory.
-
-## Commands
-
-All commands are run from the root of the project, from a terminal:
-| Command | Action |
-| :--------------------- | :----------------------------------------------- |
-| `npm install` | Installs dependencies |
-| `npm run dev` | Starts local dev server at `localhost:3000` |
-| `npm run build` | Build your production site to `./dist/` |
-| `npm run preview` | Preview your build locally, before deploying |
-| `npm run astro ...` | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI |
-
----
-
-Updated on: 06.16.2025-
-
-Whats new:
-
-- Full redesign
-- Ligth mode
-- New palette
+Entrego los textos, precios y fotografías; necesito el montaje completo y una guía breve para futuras actualizaciones.
+</details>

@@ -42,3 +42,4 @@ package-lock.js
 .astro/settings.json
 .astro/types.d.ts
 bun.lock
+pnpm-workspace.yaml
